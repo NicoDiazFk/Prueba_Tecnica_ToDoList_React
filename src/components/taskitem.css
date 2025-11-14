@@ -1,0 +1,160 @@
+.task-item {
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.task-item-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.task-item-header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.task-item-name {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.task-item-description {
+  margin: 0;
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.task-item-date {
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.task-item-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 16px;
+}
+
+.priority-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 4px;
+}
+
+.priority-label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.priority-text {
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.priority-text.alta {
+  color: #dc2626;
+}
+
+.priority-text.media {
+  color: #f59e0b;
+}
+
+.priority-text.baja {
+  color: #10b981;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.status-badge.pendiente {
+  background-color: #6b7280;
+}
+
+.status-badge.en_proceso {
+  background-color: #3b82f6;
+}
+
+.status-badge.vencida {
+  background-color: #ef4444;
+}
+
+.status-badge.completada {
+  background-color: #10b981;
+}
+
+.task-item-button {
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  height: 36px;
+}
+
+.task-item-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.task-item-button-edit {
+  background-color: #3b82f6;
+}
+
+.task-item-button-edit:hover {
+  background-color: #2563eb;
+}
+
+.task-item-button-toggle {
+  background-color: #10b981;
+}
+
+.task-item-button-toggle:hover {
+  background-color: #059669;
+}
+
+.task-item-button-toggle.completed {
+  background-color: #ef4444;
+}
+
+.task-item-button-toggle.completed:hover {
+  background-color: #dc2626;
+}
+
+.task-item-button-delete {
+  background-color: #ef4444;
+}
+
+.task-item-button-delete:hover {
+  background-color: #dc2626;
+}
+

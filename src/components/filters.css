@@ -1,0 +1,158 @@
+.filters-container {
+  position: relative;
+  display: inline-block;
+}
+
+.filters-toggle {
+  padding: 8px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+.filters-toggle svg {
+  width: 16px;
+  height: 16px;
+}
+
+.filters-toggle:hover {
+  border-color: #9ca3af;
+}
+
+.filters-toggle.active {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.filter-badge {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.filters-panel {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 8px;
+  background: white;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  z-index: 100;
+}
+
+.filters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.filters-header h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #1e293b;
+}
+
+.clear-filters-btn {
+  padding: 4px 12px;
+  background-color: #f3f4f6;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.clear-filters-btn:hover {
+  background-color: #e5e7eb;
+}
+
+.filter-group {
+  margin-bottom: 16px;
+}
+
+.filter-group:last-child {
+  margin-bottom: 0;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.filter-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.active-filter-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background-color: #dbeafe;
+  color: #1e40af;
+  border-radius: 16px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.active-filter-tag button {
+  background: none;
+  border: none;
+  color: #1e40af;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.active-filter-tag button:hover {
+  background-color: rgba(30, 64, 175, 0.2);
+}
+
+.active-filter-tag button svg {
+  width: 12px;
+  height: 12px;
+}
+

@@ -1,0 +1,142 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  padding-top: 20px;
+}
+
+.main-content {
+  padding-top: 80px;
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filters-wrapper {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.quick-task-form-container {
+  margin-bottom: 24px;
+  padding: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.quick-task-form {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.quick-task-form-input-wrapper {
+  flex: 1;
+}
+
+.quick-task-form-label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+  color: #374151;
+  font-weight: 500;
+}
+
+.quick-task-form-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #111827;
+}
+
+.quick-task-form-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.quick-task-form-input.input-error {
+  border-color: #ef4444;
+}
+
+.quick-task-form-input.input-error:focus {
+  border-color: #ef4444;
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+.quick-task-form-error {
+  display: block;
+  color: #ef4444;
+  font-size: 12px;
+  margin-top: 4px;
+  text-align: left;
+}
+
+.quick-task-form-more-options-btn {
+  padding: 10px 20px;
+  background-color: #f3f4f6;
+  color: #374151;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.quick-task-form-submit-wrapper {
+  margin-top: 24px;
+}
+
+.quick-task-form-submit-btn {
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.quick-task-form-submit-btn:hover {
+  background-color: #2563eb;
+}
+
+.components {
+  margin-top: 10px;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
